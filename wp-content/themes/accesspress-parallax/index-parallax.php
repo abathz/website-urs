@@ -61,19 +61,19 @@ Directors and Reporters, whereas Off-air consists of Public Relations, and Creat
 			</div>
 			<div class="col-lg-10">
 				<div class="team-listing clearfix pull-right">
-					<a href="http://localhost:8080/website-urs/announcer-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/announcer-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/announcer.png" width="80px" alt="">
 						<h6>ANNOUNCER</h6>
 					</a>
-					<a href="http://localhost:8080/website-urs/producer-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/producer-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/producer.png" width="115px" alt="">
 						<h6>PRODUCER</h6>
 					</a>
-					<a href="http://localhost:8080/website-urs/reporter-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/reporter-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/reporter.png" width="115px" style="padding-bottom: 15px;" alt="">
 						<h6>REPORTER</h6>
 					</a>
-					<a href="http://localhost:8080/website-urs/music-director-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/music-director-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/MD.png" width="120px" alt="">
 						<h6>MUSIC DIRECTOR</h6>
 					</a>
@@ -98,15 +98,15 @@ Directors and Reporters, whereas Off-air consists of Public Relations, and Creat
 			</div>
 			<div class="col-lg-10">
 				<div class="team-listing clearfix pull-right">
-					<a href="http://localhost:8080/website-urs/public-relation/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/public-relation/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/PR.png" width="140px" alt="">
 						<h6>PUBLIC RELATION</h6>
 					</a>
-					<a href="http://localhost:8080/website-urs/creative-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/creative-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/creative.png" width="105px" alt="">
 						<h6>CREATIVE</h6>
 					</a>
-					<a href="http://localhost:8080/website-urs/operator-program/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
+					<a href="http://localhost:8000/website-urs/operator-program/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/OP.png" width="100px" alt="">
 						<h6>OPERATOR PROGRAM</h6>
 					</a>
