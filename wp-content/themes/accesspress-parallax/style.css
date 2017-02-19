@@ -144,7 +144,7 @@ p {
 	margin-bottom: 20px;
 }
 b, strong {
-	font-weight: bold;
+	font-family: "Gotham-Bold";
 }
 dfn, cite, em, i {
 	font-style: italic;
@@ -2030,6 +2030,10 @@ Responsive grid for pages
 	text-align: justify;
 }
 
+.history img{
+	margin-top: 30px;
+}
+
 .division{
 	/*padding-top:180px;*/
 	background-color: #ffb400;
@@ -2037,10 +2041,15 @@ Responsive grid for pages
 
 .division h6{
 	letter-spacing: 2px;
+	font-family: "Gotham-Book";
 }
 
 .division a{
 	text-decoration: none;
+}
+
+.division .team-listing{
+	margin-bottom: 60px;
 }
 
 .bottom-footer a{
@@ -2059,7 +2068,7 @@ Responsive grid for pages
 }
 
 .final-section h1{
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 
 .next-page{
@@ -2143,6 +2152,11 @@ Responsive grid for pages
 	padding-bottom: 10px;
 }
 
+#section-23 h1 span{
+	letter-spacing: 2px;
+	margin-bottom: 60px;
+}
+
 #section-23 .blog-list .blog-excerpt{
 	border-color: #ffb400;
 }
@@ -2161,6 +2175,11 @@ Responsive grid for pages
 
 #section-23 .blog-list .blog-excerpt span:hover{
 	background: #DE9D00;
+}
+
+#section-21 h1 span{
+	letter-spacing: 2px;
+	margin-bottom: 60px;
 }
 
 #section-21 .blog-list .blog-excerpt{
@@ -2187,8 +2206,8 @@ Responsive grid for pages
 	display: none;
 }
 
-.post-781{
-	background-color: #000;
+.reslide_navigator .reslide_dot{
+	display: none;
 }
 
 /*.header h2,

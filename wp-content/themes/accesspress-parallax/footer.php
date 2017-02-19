@@ -25,21 +25,19 @@
 		<div class="bottom-footer">
 			<div class="mid-content clearfix">
 				<div class="row">
-					<div class="col-lg-4 text-center">
+					<div class="col-lg-4 col-lg-offset-1 text-center">
 						<h2>Reach Us!</h2>
-						<h4>Contact Urs</h4>
-						<p>Sekretariat Unpar Radio Station (URS)<br>Jalan Ciumbuleuit No.94, Bandung, West Java, Indonesia 40141</p>
+						<p style="font-family: 'Gotham-Book'"><strong>Sekretariat Unpar Radio Station (URS)</strong><br>Jalan Ciumbuleuit No.94, Bandung, West Java, Indonesia 40141</p>
 						<h4>Contact Person</h4>
-						<p>M. Iqbal Gumilar<br>081221751688 / 083827701565</p>
+						<p style="font-family: 'Gotham-Book'"><strong>M. Iqbal Gumilar</strong><br>081221751688 / 083827701565</p>
 						<h4>Email</h4>
-						<p>Pr.urs1077@gmail.com</p>
+						<p style="font-family: 'Gotham-Book'; margin-bottom: 60px;">Pr.urs1077@gmail.com</p>
+						<a href="https://www.instagram.com/unparradiostation/" target="_blank"><img style="margin-bottom: 50px; width: 40px;" src="<?php echo get_template_directory_uri(); ?>/images/instagramicon.png" alt=""></a>
+						<a href="https://line.me/R/ti/p/%40caz5620i" target="_blank"><img style="margin-bottom: 50px; width: 40px;" src="<?php echo get_template_directory_uri(); ?>/images/lineicon.png" alt=""></a>
+						<a href="https://twitter.com/urs1077fm" target="_blank"><img style="margin-bottom: 50px; width: 40px;" src="<?php echo get_template_directory_uri(); ?>/images/twittericon.png" alt=""></a>
+						<a href="https://www.youtube.com/user/urs1077fm" target="_blank"><img style="margin-bottom: 50px; width: 40px;" src="<?php echo get_template_directory_uri(); ?>/images/youtubeicon.png" alt=""></a>
 					</div>
-					<div class="col-lg-4 text-center">
-						<h2>Official LINE</h2>
-						<img style="margin-bottom: 50px;" src="<?php echo get_template_directory_uri(); ?>/images/chart.png" alt="">
-						<a href="https://www.instagram.com/unparradiostation/" target="_blank"><img style="margin-bottom: 50px; width: 200px;" src="<?php echo get_template_directory_uri(); ?>/images/instagram_bw.png" alt=""></a>
-					</div>
-					<div class="col-lg-4 text-center">
+					<div class="col-lg-4 col-lg-offset-2 text-center">
 						<h2>Our Tweet</h2>
 						<a class="twitter-timeline" data-width="100%" data-height="400" data-theme="dark" href="https://twitter.com/urs1077fm">Tweets by urs1077fm</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
