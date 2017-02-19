@@ -37,7 +37,7 @@
 					<div class="col-lg-4 text-center">
 						<h2>Official LINE</h2>
 						<img style="margin-bottom: 50px;" src="<?php echo get_template_directory_uri(); ?>/images/chart.png" alt="">
-						<h2>Social Media</h2>
+						<a href="https://www.instagram.com/unparradiostation/" target="_blank"><img style="margin-bottom: 50px; width: 200px;" src="<?php echo get_template_directory_uri(); ?>/images/instagram_bw.png" alt=""></a>
 					</div>
 					<div class="col-lg-4 text-center">
 						<h2>Our Tweet</h2>
