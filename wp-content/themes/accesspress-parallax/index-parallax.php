@@ -28,11 +28,10 @@
 <section class="parallax-section clearfix division" id="division">
 	<div class="mid-content">
 		<div class="row">
-			<div class="col-lg-2" style="padding-left: 20px; margin-top: 40px;">
-				<h1 style="letter-spacing: 5px; font-size: 20px; padding-left: 53px;"><span>Division</span></h1>
-				<h1 style="font-size: 50pt; color: #fa4e68; margin-top: 40px;">CORE</h1>
+			<div class="col-lg-4" style="padding-left: 20px; margin-top: 40px;">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/division-core.png" width="200px" alt="">
 			</div>
-			<div class="col-lg-10 text-center">
+			<div class="col-lg-8 text-center">
 				<div class="clearfix">
 					<div class="team-tab">
 						<div class="clearfix wow fadeInLeft" data-wow-delay="0.25s">
@@ -50,15 +49,10 @@
 <section class="parallax-section clearfix division" id="division">
 	<div class="mid-content">
 		<div class="row">
-			<div class="pull-left">
-				<h1 style="letter-spacing: 5px; font-size: 20px; padding-left: 53px;"><span>Division</span></h1>
+			<div class="col-lg-3">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/divisionon-air.png" width="172px" alt="">
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-2">
-				<h1 style="font-size: 50pt; color: #fa4e68; margin-top: 40px;">ON-AIR</h1>
-			</div>
-			<div class="col-lg-10 text-center">
+			<div class="col-lg-9 text-center">
 				<div class="team-listing clearfix pull-right">
 					<a href="http://localhost:8000/website-urs/announcer-2/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/announcer.png" width="80px" alt="">
@@ -87,15 +81,10 @@
 <section class="parallax-section clearfix division" id="division">
 	<div class="mid-content">
 		<div class="row">
-			<div class="pull-left">
-				<h1 style="letter-spacing: 5px; font-size: 20px; padding-left: 53px;"><span>Division</span></h1>
+			<div class="col-lg-3">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/divisionoff-air.png" alt="">
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-2">
-				<h1 style="font-size: 30pt; color: #fa4e68; margin-top: 40px;">OFF-AIR</h1>
-			</div>
-			<div class="col-lg-10 text-center">
+			<div class="col-lg-9 text-center">
 				<div class="team-listing clearfix pull-right">
 					<a href="http://localhost:8000/website-urs/public-relation/" class="clearfix team-image wow fadeInLeft" data-wow-delay="0.25s">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/PR.png" width="140px" alt="">
@@ -227,30 +216,30 @@
 
 	?>
 	<?php  ?>
-	<section class="parallax-section clearfix final-section" id="final-section">
-		<div class="mid-content">
-			<div class="row">
-				<div class="col-lg-6 text-center">
-					<h1 style="letter-spacing: 2px;"><span>Program<br>Schedule</span></h1>
-					<?php echo do_shortcode("[ecs-list-events limit='4']"); ?>
-				</div>
-				<div class="col-lg-6 text-center">
-					<h1 style="letter-spacing: 2px;"><span>Advertisement Board</span></h1>
-					<?php echo do_shortcode("[R-slider id='2']"); ?>
-				</div>
+<section class="parallax-section clearfix final-section" id="final-section">
+	<div class="mid-content">
+		<div class="row">
+			<div class="col-lg-6 text-center">
+				<h1 style="letter-spacing: 2px;"><span>Program<br>Schedule</span></h1>
+				<?php echo do_shortcode("[ecs-list-events limit='4']"); ?>
+			</div>
+			<div class="col-lg-6 text-center">
+				<h1 style="letter-spacing: 2px;"><span>Advertisement Board</span></h1>
+				<?php echo do_shortcode("[R-slider id='2']"); ?>
 			</div>
 		</div>
-	</section>
-	<section class="parallax-section clearfix streaming" id="streaming">
-		<div class="mid-content">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<!-- <script type="text/javascript">var cstrpuid = 404848;var cstrpwidth = "500";var cstrpheight = "325";</script>
-					<script type="text/javascript" src="http://cdn.caster.fm/0070B7/widgets/player.js"></script>
-					<a id="cstrplb" href="http://www.caster.fm/">Free Shoutcast Hosting</a>
-					<a id="cstrplb2" href="http://www.caster.fm/">Radio Stream Hosting</a>
-					<div id="cstrpdiv"></div> -->
-				</div>
+	</div>
+</section>
+<section class="parallax-section clearfix streaming" id="streaming">
+	<div class="mid-content">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<script type="text/javascript">var cstrpuid = 404848;var cstrpwidth = "500";var cstrpheight = "325";</script>
+				<script type="text/javascript" src="http://cdn.caster.fm/0070B7/widgets/player.js"></script>
+				<a id="cstrplb" href="http://www.caster.fm/">Free Shoutcast Hosting</a>
+				<a id="cstrplb2" href="http://www.caster.fm/">Radio Stream Hosting</a>
+				<div id="cstrpdiv"></div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>

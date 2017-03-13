@@ -1,4 +1,4 @@
-/*
+./*
 Theme Name: AccessPress Parallax
 Theme URI: https://accesspressthemes.com/wordpress-themes/accesspress-parallax/
 Author: AccessPress Themes
@@ -621,8 +621,8 @@ Posts and pages
 }
 .entry-header h1.entry-title{
 	font-weight: 300;
-	margin-left: 100px;
-	/*margin-bottom: 50px;*/
+	/*margin-left: 100px;*/
+	margin-bottom: 50px;
 }
 .entry-header h1.entry-title.no-date{
 	margin-left: 0;
@@ -2049,7 +2049,7 @@ Responsive grid for pages
 }
 
 .division .team-listing{
-	margin-bottom: 60px;
+	margin-top: 40px;
 }
 
 .bottom-footer a{

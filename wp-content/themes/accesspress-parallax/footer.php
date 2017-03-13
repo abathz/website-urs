@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div  class="copy-right">
-					&copy; <?php echo date('Y')." "; bloginfo('name'); ?>
+					© 2017 Unpar Radio Station
 				</div><!-- .copy-right -->
 				<div class="site-info">
 					All Rights Reserved. Developed by <a href="https://id.linkedin.com/in/adlifariz">Adli Fariz Bonaputra</a>.
